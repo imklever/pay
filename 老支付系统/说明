@@ -1,0 +1,49 @@
+'''
+协议支付文档：
+https://confluence.bkjk-inc.com/pages/viewpage.action?pageId=7276919
+支付系统测试环境域名:
+https://payment.test.bkjk.com
+
+#公用参数
+#协议支付
+appid = '10005'
+key = 'EUZ9NunT9DQN+wg6p33vgw=='
+
+businessId:
+1、北京中融信融资担保有限公司
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+2、中易购（北京）金融服务外包有限公司
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+3、北京美锦互联网金融信息有限公司
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+4、中津国汇（天津）服务外包有限公司
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+5、大连鸿拓企业管理服务有限公司
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+6、中易购金融服务外包有限公司(作废，不再使用)
+lftposno:00100120160330220010001
+lftqpno:20171228P011001
+
+'''
+
+#批量代付
+appid = '10007'
+businessId:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,40,42
+
+收款商户列表
+EHP2010000000215	vZZd56OaerhiEs0VcpRTww==
+EHP2010000000213	vZZd56OaerhiEs0VcpRTww==
+EHP2010000000211	hutt_test3
+EHP2010000000209	hutt_test2
+EHP2010000000127	hutt_test1001378
+EHP1010000021147	wolfking
+EHP1010000021145	hutt
+EHP1010000021124	demo
+EHP1010001003311	大连链家房地产经纪有限公司
+EHP1010000014846	欧阳希
+EHP1010000009437	理房通环球帝国支付公司
